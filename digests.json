@@ -1,0 +1,44 @@
+{
+  "siteTitle": "AI Brief",
+  "tagline": "Short, punchy AI news digests",
+  "digests": [
+    {
+      "date": "2026-10-01",
+      "title": "October 1, 2026",
+      "stories": [
+        {
+          "headline": "Google launches Gemini 4 Argon",
+          "summary": "Frontier model rolling out first to trusted cyber defenders, with a million-token output limit."
+        },
+        {
+          "headline": "SpaceX flies Google TPUs into orbit",
+          "summary": "Planet Labs sats carry Google chips for Project Suncatcher — first in-space test of orbital AI compute."
+        },
+        {
+          "headline": "Nvidia ships Open Agent Safety Platform",
+          "summary": "Hardware sandboxes can quarantine rogue AI agents in milliseconds."
+        },
+        {
+          "headline": "OpenAI shuts down model-theft campaign",
+          "summary": "Campaign tied to Moonshot associates targeted model reasoning; researchers say the trick still worked on Azure for weeks."
+        },
+        {
+          "headline": "Broadcom offers Anthropic ~$42B compute financing",
+          "summary": "Deal would underwrite a massive AI compute buildout."
+        },
+        {
+          "headline": "California curtails workplace AI",
+          "summary": "New laws limit AI-only firings and workplace emotion tracking."
+        },
+        {
+          "headline": "FTC presses OpenAI and Anthropic",
+          "summary": "Regulator seeking answers on AI practices."
+        },
+        {
+          "headline": "Reddit cuts RSS and public API",
+          "summary": "Access clampdown as AI scraping reshapes the open web."
+        }
+      ]
+    }
+  ]
+}
