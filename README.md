@@ -2,26 +2,15 @@
 
 Public static newsletter for short AI news digests. Hosted on GitHub Pages.
 
-- **Live now:** https://sreagent-sudo.github.io/ai-brief/
-- **Custom domain (after DNS):** https://coregentic.com
+- **Live URL:** https://sreagent-sudo.github.io/ai-brief/
 - **Repo:** https://github.com/sreagent-sudo/ai-brief
+- **Custom domain (after DNS):** https://coregentic.com
 
 ## Update a digest
 
 1. Edit `digests.json`.
-2. Add a new object at the **top** of the `digests` array (newest first):
-
-```json
-{
-  "date": "2026-10-02",
-  "title": "October 2, 2026",
-  "stories": [
-    { "headline": "Story title", "summary": "One-line summary." }
-  ]
-}
-```
-
-3. Commit and push to `main`. Pages updates in about a minute.
+2. Add a new object at the **top** of the `digests` array (newest first).
+3. Commit and push to `main`.
 
 ## Point coregentic.com at this site
 
@@ -34,7 +23,7 @@ Public static newsletter for short AI news digests. Hosted on GitHub Pages.
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
 
-Optional IPv6 AAAA records:
+Optional IPv6:
 
 | Type | Host | Value |
 |------|------|-------|
@@ -43,9 +32,9 @@ Optional IPv6 AAAA records:
 | AAAA | `@` | `2606:50c0:8002::153` |
 | AAAA | `@` | `2606:50c0:8003::153` |
 
-2. This repo includes a `CNAME` file set to `coregentic.com`. In GitHub: **Settings → Pages → Custom domain** → enter `coregentic.com` and save (GitHub may auto-detect from the CNAME file).
-3. Wait for DNS to propagate, then enable **Enforce HTTPS**.
-4. Confirm https://coregentic.com shows the same digest as the github.io URL.
+2. In the GitHub repo: **Settings → Pages → Custom domain** → enter `coregentic.com` → Save. (That creates the `CNAME` file.)
+3. Wait for DNS, then enable **Enforce HTTPS**.
+4. Confirm https://coregentic.com matches the github.io digest.
 
 ### Subdomain alternative (`news.coregentic.com`)
 
@@ -53,4 +42,4 @@ Optional IPv6 AAAA records:
 |------|------|-------|
 | CNAME | `news` | `sreagent-sudo.github.io` |
 
-Then set the Pages custom domain to `news.coregentic.com` instead.
+Then set Pages custom domain to `news.coregentic.com`.
